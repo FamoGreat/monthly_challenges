@@ -1,0 +1,11 @@
+{% extends "layout.html" %} 
+
+{% block page_title %} 
+    Page Not Found 
+{%endblock %} 
+
+{% block content %} 
+    <h1>404</h1> 
+    <p>Page not found!</p> 
+    <a href="{% url 'home' %}">Back to home</a> 
+{%endblock %} 
